@@ -242,8 +242,8 @@ case "disconnect":
 
 	// Restore direct route
 	echo("Restoring Direct Route");
-	exec("route delete 0.0.0.0 mask 0.0.0.0 internal_gw");
-	exec("route add 0.0.0.0 mask 0.0.0.0 " + gw);
+	//exec("route delete 0.0.0.0 mask 0.0.0.0 internal_gw");
+	//exec("route add 0.0.0.0 mask 0.0.0.0 " + gw);
 
 	// ReSet Tunnel Adapter IP = nothing
 	echo("Resetting Tunnel Adapter IP");
